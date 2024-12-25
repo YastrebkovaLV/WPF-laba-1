@@ -1,0 +1,10 @@
+﻿<Window x:Class="wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="OpenImageButton" Content="Открыть изображение" Width="150" Height="50" Click="OpenImageButton_Click" Margin="262,167,113,117" Background="#FF5BA749" BorderBrush="Black" />
+        <Button Name="AnotherButton" Content="Другая кнопка" Width="150" Height="50" Margin="73,167,302,117" Background="#FFE96C6C" BorderBrush="Black" />
+    </Grid>
+</Window>
+

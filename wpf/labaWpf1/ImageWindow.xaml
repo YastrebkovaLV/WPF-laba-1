@@ -1,0 +1,21 @@
+<Window x:Class="imageWindow.ImageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ImageWindow" Height="300" Width="300">
+    <Grid>
+        <Image Source="C:\Users\User\Desktop\1111\cat.jpg" Stretch="Uniform" Margin="46,18,46,102" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.283"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.391"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button Content="close" HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top"  Width="100" Height="30" Click="CloseButton_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="165,97,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+
+</Window>
